@@ -1,0 +1,57 @@
+.register{
+
+height:calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ background-image: url('r2.jpg');
+ background-size: cover ;
+ 
+}
+
+
+.registerPageHeading{
+    font-size: 50px;
+}
+
+
+.registerpageInfo{
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerpageInfo >label{
+    margin: 10px 0;
+}
+
+.registerPageText{
+    padding: 10px;
+    border: none;
+    background-color: white;
+    
+}
+
+.registerbutton{
+    margin-top: 20px;
+    background-color:rgb(33, 129, 70);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.registerLoginbutton{
+    position: absolute;
+    padding: 10px;
+    top:60px;
+    right:20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
